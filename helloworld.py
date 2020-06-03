@@ -8,4 +8,4 @@ print("".join(
 
 aydens_personality = ['annoying', 'stupid', 'beta', 'always losing']
 for i in aydens_personality:
-    print(f'Ayden is {i}')
+    print(f'Chhavi is {i}')
