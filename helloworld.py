@@ -1,4 +1,4 @@
-Guys = ['Ayden', 'Sohan', 'Kris', 'Sam']
+Guys = ['Ayden', 'Sohan', 'Kris', 'Sam and Rahul']
 Girls = ['Rishika', 'Shenali', 'Banisha', 'Chhavi']
 Rents = ['Dad', 'Mom']
 
