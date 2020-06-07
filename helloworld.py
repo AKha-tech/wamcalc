@@ -9,3 +9,5 @@ print("".join(
 aydens_personality = ['annoying', 'stupid', 'beta', 'always losing']
 for i in aydens_personality:
     print(f'Ayden are {i}')
+
+print("github on pycharm mf")
