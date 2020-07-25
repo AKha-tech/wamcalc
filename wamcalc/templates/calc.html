@@ -1,0 +1,37 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="{% static 'css/calc.css' %}">
+
+    <form action="add">
+        <button type="submit"> Add Subject </button>
+    </form>
+
+    {% for subj in subj_list %}
+    <h4> {{subj.name}} </h4>
+    <a href="edit/{{subj.id}}"> Edit </a>
+    <p> {{subj.code}} </p>
+    <p> Mark: {{subj.mark}} </p>
+    <p> Credit Points: {{subj.cp}} </p>
+    {% endfor %}
+    <br/>
+    <br/>
+    <br/>
+    <h3> WAM = {{ WAM }} </h3>
+    <h3>GPA (4pt) = {{GPA}} </h3>
+    <h3>GPA (7pt) = {{GPA7}}</h3>
+
+
+
+</body>
+
+</html>
